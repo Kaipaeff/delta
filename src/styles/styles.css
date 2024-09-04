@@ -1,6 +1,9 @@
 .container {
   display: flex;
   flex-direction: column;
+  outline: 1px solid #ccc;
+  padding: 24px;
+  border-radius: 16px;
 }
 
 .chart-title {
@@ -17,6 +20,7 @@
 .table-body_data {
   width: 260px;
   padding: 4px 60px 4px 60px;
+  border-radius: 8px;
   text-align: center;
   background-color: rgb(235, 235, 235);
 }
@@ -30,4 +34,11 @@
 
 .table-body_data {
   cursor: pointer;
+}
+
+.chart-container {
+  margin-bottom: 32px;
+  padding: 0 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
