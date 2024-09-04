@@ -1,7 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  outline: 1px solid rgb(0, 0, 0);
 }
 
 .chart-title {
@@ -14,7 +13,21 @@
   margin-bottom: 4px;
 }
 
-.table-head_title {
+.table-head_title,
+.table-body_data {
+  width: 260px;
   padding: 4px 60px 4px 60px;
+  text-align: center;
   background-color: rgb(235, 235, 235);
+}
+
+.data-title,
+.head-title {
+  width: 320px;
+  text-align: left;
+  padding: 4px 12px;
+}
+
+.table-body_data {
+  cursor: pointer;
 }
