@@ -27,6 +27,7 @@ function App() {
     };
   };
 
+
   return (
     <div className="container">
       <h1 className="chart-title">Delta Charts</h1>
